@@ -1,0 +1,126 @@
+.wrapper1 {
+    background: #dcdbdb;
+    text-align: center;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 10%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 17px;
+}
+
+.close-btn {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 210px;
+    background-color: #dcdbdb;
+    border: none;
+}
+
+.question_input {
+    margin-top: 60px;
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    cursor: text;
+}
+
+.question_input::placeholder {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.password_input {
+    margin-top: 60px;
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    cursor: text;
+}
+
+.password_input::placeholder {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.confirm_input {
+    margin-top: 60px;
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    cursor: text;
+}
+
+.confirm_input::placeholder {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.iconpassword {
+    margin-left: -8px;
+}
+
+.head11 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subhead11 {
+    margin-top: 10px;  /* Adjust the margin to create space between head11 and subhead11 */
+    font-size: 20px;  /* Add a font size to subhead11 */
+    font-weight: 600; /* Add font weight to subhead11 */
+    color: #555;      /* Add color to subhead11 */
+}
+
+.mail-icon {
+    margin-left: -20px;
+}
+
+.username_input {
+    margin-top: 60px;
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    cursor: text;
+}
+
+.username_input::placeholder {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.error-message {
+    margin-top: -330px;  /* Add margin to create space between subhead11 and error message */
+    color: red;
+    font-size: 18px;
+}
+
+.sendbtn {
+    position: absolute;
+    width: 23vh;
+    height: 43px;
+    margin-left: -6.5%;
+    margin-top: 350px;  /* Adjust margin-top for better alignment */
+    background: #f3ad16;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #281e07;
+    font-weight: 800;
+}
