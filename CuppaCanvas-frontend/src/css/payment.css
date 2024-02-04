@@ -1,0 +1,157 @@
+.payment-container {
+    background: #faf7f2;
+    width: 100%;
+    height: 300vh;
+    /*overflow-x: hidden;*/
+}
+
+.payment-text-div {
+    display: block;
+    color: #443f3f;
+    font-family: "Gilroy Bold", serif;
+    font-size: 1.5rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin: 0 auto; /* Center the half line */
+}
+
+.payment-text-div b {
+    color: #f3ad16;
+}
+
+.half-hr {
+    border-top: 1px solid #ccc;
+    width: 50%;
+    margin: 0 auto; /* Center the half line */
+}
+
+.delivery-mode-container {
+    background: #817373;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    margin: 40px;
+    margin-inline: auto;
+    width: 70vw;
+    height: 100vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+}
+
+.delivery-method {
+    background: white;
+    display: flex;
+    padding: 10px 20px;
+    margin: 1px;
+    margin-inline: auto;
+    width: 60vw;
+    height: 30vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+}
+
+.receipt-container {
+    background: white;
+    display: flex;
+    padding: 10px 20px;
+    margin: 20px;
+    margin-inline: auto;
+    width: 100%;
+    height: 55vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.receipt-container-text{
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.receipt-tex{
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.payment-mode-container {
+    background: white;
+    display: flex;
+    padding: 8px 20px;
+    margin: 10px;
+    margin-inline: auto;
+    width: 60vw;
+    height: 30vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+
+
+}
+.dropdown-delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.select-delivery-option{
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    width:32vw;
+    height: 4vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #162938;
+    margin:  26px 0;
+    padding-left: 6px;
+    background: transparent;
+    color:  rgb(133, 133, 133)
+
+}
+
+.dropdown-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.select-payment-option{
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    width:32vw;
+    height: 4vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #162938;
+    margin:  26px 0;
+    padding-left: 6px;
+    background: transparent;
+    color:  rgb(133, 133, 133)
+
+}
+
+.confirm-order{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    margin: 40px;
+    margin-inline: auto;
+    width: 30vw;
+    height: 30vh;
+    align-items: center;
+
+}
+
+
