@@ -1,0 +1,155 @@
+.menu {
+    max-width: 600px;
+    min-width: 10px;
+    width: 900px;
+    height: 820px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 35%;
+    background: #dcdbdb;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-family: "Gilroy Bold";
+}
+
+.line-top{
+    border:1px solid black;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+
+.line-bottom{
+    margin-top: 18px;
+    border:1px solid black;
+}
+
+.menu-heading {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    font-size: 37px;
+
+    font-weight: bold;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tick{
+    margin-left: 2px;
+    margin-right: 4px;
+    width: 28px;
+}
+
+.item-left {
+    flex: 2;
+    margin-left: 6px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:19px;
+}
+
+.tick{
+    width: 18px;
+    height: 18px;
+}
+
+.item-right {
+    flex: 2;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 9px;
+    padding-top: 10px;
+    gap:19px;
+    margin-top:420px;
+
+}
+
+.sub-heading-left,.sub-heading-right{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.item {
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.sub-heading-left{
+    margin-left: 80px;
+}
+
+.sub-heading-right{
+    margin-top: -420px;
+    margin-left: -100px;
+    margin-right: 32px;
+}
+
+.itemprice{
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    margin-top: -26px;
+}
+
+.price-real{
+    margin-left: 480px;
+    margin-top: 15px;
+}
+
+.item-price {
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    margin-top:440px;
+    margin-right: -14px;
+}
+
+.customize-button{
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+.line-bottom{
+    margin-top: 40px;
+}
+
+.close-button {
+    width: 3vw;
+    height: 3vw;
+    background: none;
+    box-shadow: none;
+    color: #222222;
+    border-radius: 9px;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    padding: 7px 3px 0 3px;
+    margin-bottom: -20px;
+}
+.close-button:hover{
+    box-shadow: none;
+    color: #831515
+}
+
+/* Add the following styles for messages */
+.messages-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    background-color: #f3ad16;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
