@@ -1,0 +1,141 @@
+
+/*css fro login-modal*/
+body.active-login-modal {
+    overflow-y: hidden;
+}
+.login-modal, .login-overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 101;
+    backdrop-filter: blur(3px);
+}
+.login-modal-content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #dcdbdb;
+    /*backdrop-filter: blur(100px);*/
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    width: 27vw;
+    height: 65vh;
+    z-index: 102;
+
+}
+.login-modal-content h2{
+    font-size: 2rem;
+    color: #162938;
+    text-align: center;
+    text-decoration: underline;
+}
+.close-login-btn {
+    width: 3vw;
+    height: 3vw;
+    background: none;
+    box-shadow: none;
+    color: #222222;
+    border-radius: 9px;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    padding: 7px 3px 0 3px;
+    margin-bottom: -20px;
+}
+.close-login-btn:hover{
+    box-shadow: none;
+    color: #831515
+}
+.input-box .username, .password{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid#162938;
+    margin: 30px 0;
+    display: flex;
+}
+.input-box .img{
+    width: 10px;
+    cursor: pointer;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #162938;
+    pointer-events: none;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.input-box .iconmail, .iconpassword{
+    position: absolute;
+    right: 30px;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 57px;
+
+}
+.Remember-forget{
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500;
+    margin: 15px 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.Remember-forget label input{
+    text-decoration: none;
+    margin-right: 3px;
+}
+.Remember-forget a{
+    color: #551A8b;
+    text-decoration: none;
+
+}
+.Remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.btn-login10{
+    width: 16vw;
+    height: 7vh;
+    background: #f3ad16;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 15px 50px;
+}
+
+.register-text {
+    position: absolute;
+    bottom: 55px;
+    right: 95px;
+}
+.register-text:hover {
+    cursor: pointer;
+}
+.register-text a:hover{
+    text-decoration: underline;
+}
