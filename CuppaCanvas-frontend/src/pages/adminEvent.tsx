@@ -5,7 +5,7 @@ import AdminSidebar from "./adminSidebar.tsx";
 import {CiEdit} from "react-icons/ci";
 import "../../src/css/adminEvent.css"
 import {MdDelete} from "react-icons/md";
-import React from "react";
+
 
 function AdminEvent(){
 
