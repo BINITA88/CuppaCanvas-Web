@@ -37,7 +37,7 @@ function AdminDashboard(){
 
                 <div className={"dashboard-right"}>
                     <header className={"dashboard-header"}>
-                        <h1>Dashboard</h1>
+                        <h1>CuppaCanvas Dashboard</h1>
 
                         {/*<div className={"search-wrapper"}>*/}
                         {/*    <span><FaSearch /></span>*/}

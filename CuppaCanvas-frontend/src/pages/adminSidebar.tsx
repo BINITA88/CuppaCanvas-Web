@@ -21,9 +21,8 @@ const AdminSidebar: React.FC<AdminSidebarProps> = ({ activePage }) => {
         <>
             <div className={"admin-sidebar"}>
                 <div className={"sidebar-brand"}>
-                    <h1> <span><TiHome style={{fontSize:"2.1rem", marginBottom:"-4px", color:"black"}} /></span>Feast</h1>
+                    <h1> <span><TiHome style={{fontSize:"2.1rem", marginBottom:"-4px", color:"black"}} /></span></h1>
                 </div>
-
                 <div className={"sidebar-options"}>
                     <ul className={"sidebar-list"}>
                         <Link to={"/AdminDashboard"}>
