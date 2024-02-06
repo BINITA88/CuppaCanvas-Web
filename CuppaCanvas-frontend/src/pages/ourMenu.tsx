@@ -71,7 +71,7 @@ const Home: React.FC = () => {
             <div className={"menu-page-div"}>
                 <HomeNavbar activePage={currentLocation} />
                 <div className={"check-out-container"}>
-                    <h1>CuppaCanva</h1>
+                    <h1>CuppaCanvas</h1>
                     <input
                         type="text"
                         placeholder="Search..."

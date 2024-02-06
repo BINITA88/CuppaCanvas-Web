@@ -6,7 +6,7 @@
 
 .nav-bar{
     display: flex;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color:#e7dfd8;
     box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
     align-items: center;
     justify-content: space-between;
@@ -14,11 +14,13 @@
     overflow-x: hidden;
     border-radius: 0 0 10px 10px;
 
+
     /*width: 100vw;*/
 }
 
 .logo img{
     margin: 0 0 0 1.2rem;
+
 
 }
 .home-options ul{

@@ -195,12 +195,12 @@ const HomeNavbar: React.FC<HomeNavbarProps> = ({ activePage }) => {
         <>
             <div className={"nav-bar"}>
                 <div className={"logo"}>
-                    <img src={"Feast/Feast_Food/src/images/logo.png"} width={"40px"} />
+                    <img src={"src/images/logo.png"} width={"215px"}  />
                 </div>
                 <div className={"home-options"}>
                     <ul>
                         {/*<Link to={"/"}><li className={activePage === "/" ? "active" : ""}><a>Home</a></li></Link>*/}
-                        <Link to={"/Home"}><li className={activePage === "/Home" ? "active" : ""}><a>Home</a></li></Link>
+                        {/*<Link to={"/Home"}><li className={activePage === "/Home" ? "active" : ""}><a>Home</a></li></Link>*/}
                         {/*<Link to={"/ReservationPage"}><li className={activePage === "/ReservationPage" ? "active" : ""}><a>ReservationPage</a></li></Link>*/}
                         {/*<Link to={"/EventsPage"}><li className={activePage === "/EventsPage" ? "active" : ""}><a>Events</a></li></Link>*/}
                         {/*<Link to={"/ContactPage"}><li className={activePage === "/ContactPage" ? "active" : ""}><a>Contact</a></li></Link>*/}
@@ -208,11 +208,19 @@ const HomeNavbar: React.FC<HomeNavbarProps> = ({ activePage }) => {
                 </div>
 
                 <div className={"hp-navright"}>
+                    <Link to={"/Home"}>
+                        <span className={"icon-cart"}>
+                               Home
+                        </span>
+                    </Link>
+
+
                     <Link to={"/cart"}>
                         <span className={"icon-cart"}>
                                 <FaCartArrowDown style={{ fontSize: "1.2rem", marginBottom: "-6px", marginRight: "10px" }} />
                         </span>
                     </Link>
+
                     {user ? (
                              <span className={"fullnamedisplay"} onClick={() => setUserProfile(true)}>
                                 <FaCircleUser style={{ fontSize: "3rem", marginBottom: "-3px", marginRight: "3px" }} />

@@ -6,7 +6,6 @@ import ManageItem from "./pages/ManageItem.tsx";
 import UserProfileView from "./pages/UserProfileView.tsx";
 import Payment from "./pages/payment.tsx";
 import CustomizePizzaPage from "./pages/CustomizePizza/CustomizePizzaPage.tsx";
-import Cart from "./pages/cart/Cart.tsx";
 import EditCategory from "./pages/editCategory.tsx";
 import Homedelivery from "./pages/homedelivery.tsx";
 import HomeDelivery from "./pages/homedelivery.tsx";
@@ -16,6 +15,7 @@ import AdminEvent from "./pages/adminEvent.tsx";
 import EditItem from "./pages/editItem.tsx";
 import ForgotPass1 from "./pages/forgotpassword/ForgotPass1.tsx";
 import Home from "./pages/ourMenu.tsx";
+import Cart from "./pages/cart/Cart.tsx";
 
 
 const queryClient = new QueryClient();
